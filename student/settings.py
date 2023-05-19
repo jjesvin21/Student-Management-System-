@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "app.student_app",
+    "rest_framework",
 ]
 
 MIDDLEWARE = [
@@ -77,7 +78,7 @@ WSGI_APPLICATION = "student.wsgi.application"
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'login2',
+        'NAME': 'student',
         'USER': 'postgres',
         'PASSWORD': 'jesvin',
         'HOST': 'localhost',
